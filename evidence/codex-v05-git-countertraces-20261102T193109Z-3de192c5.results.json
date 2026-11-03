@@ -1,0 +1,18 @@
+{
+  "scope": "Deterministic local bare/file Git mechanism tests; does not execute full v0.5 reader or prove production durability.",
+  "restart_after_overwritten_tracking": {
+    "initial_prior_tip_rejects_sibling": true,
+    "after_restart_tracking_self_check_accepts": true,
+    "older_cursor_check_accepts": true,
+    "separate_retained_verified_tip_still_rejects": true
+  },
+  "cursor_namespace": {
+    "existing_default_cursor_prevents_consumer_child_ref": true
+  },
+  "shallow_ancestry": {
+    "both_endpoint_objects_present": true,
+    "repository_shallow": true,
+    "shallow_is_ancestor_exit": 1,
+    "complete_is_ancestor_exit": 0
+  }
+}

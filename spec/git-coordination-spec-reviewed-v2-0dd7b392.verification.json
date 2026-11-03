@@ -1,0 +1,52 @@
+{
+  "reviewed_snapshot": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/git-coordination-spec-reviewed-v2-0dd7b392.md",
+  "sha256": "0dd7b3922981abce73c83e9f9ad2ca4cc6a036647eff51e796f98a5196c30a65",
+  "copied_from_working_path": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/git-coordination-spec-v2-consolidated.md",
+  "scope": "Endorsed consolidated DESIGN DRAFT; informative overview and topic-scoped exact approved source snapshots. Not a frozen wire grammar, implementation or capacity proof.",
+  "overview_review": "All new front-matter prose read. Latest six corrections reflected in the pinned bytes; section13 expressly limits per-topic appendix authority and historical metadata.",
+  "source_payloads": [
+    {
+      "id": "A",
+      "source": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/codex-algorithm-review-v2.md",
+      "bytes": 21623,
+      "sha256": "f21db5883d1fc491c90faf968e012fb822e60d109aa414ea510871062bb1fd41",
+      "matches_approved_source": true
+    },
+    {
+      "id": "B",
+      "source": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/semantic-trace-suite-v2-peer-reviewed-draft.md",
+      "bytes": 18720,
+      "sha256": "297eb9bc79a7cd322a05acfd13b3e98557fefccbdeac33e5668fb5268821b3c6",
+      "matches_approved_source": true
+    },
+    {
+      "id": "C",
+      "source": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/encoding-recommendation-D3-v1-codex-draft.md",
+      "bytes": 6945,
+      "sha256": "30d80a57e76888a6c3dee833099669b99c41d7f1ff110074d594e4d1c4467b68",
+      "matches_approved_source": true
+    },
+    {
+      "id": "D",
+      "source": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/reader-retention-clarification-T26-v1.md",
+      "bytes": 3834,
+      "sha256": "e821eb627ce160a44d66ed7b28f197f98524f0ca841bcbe382c6723bd1d16d1f",
+      "matches_approved_source": true
+    },
+    {
+      "id": "E",
+      "source": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/codex-optional-attention-harness-note-v2.md",
+      "bytes": 4789,
+      "sha256": "e1c7c07703cd3e88d95baad708b8c055ffeb55efb56a9bbfd9789198f4e23357",
+      "matches_approved_source": true
+    },
+    {
+      "id": "F",
+      "source": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/git-coordination-decision-record-v3.md",
+      "bytes": 20928,
+      "sha256": "5a6f88f6d4256a09fec9c3e69fb7c3f93c97ca6e4a730ce1bdb1d73dcc21596a",
+      "matches_approved_source": true
+    }
+  ],
+  "immutable_review_rule": "Endorsement applies to this exact hash; later edits to a working filename do not inherit it."
+}

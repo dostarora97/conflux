@@ -1,0 +1,26 @@
+{
+  "scope": "Controlled local file-transport receive-pack/proc-receive integration, one data ref per push, files backend, trusted fixture policy changes. Test hook omits authentication, full packet validation, multi-ref/atomic push support, deletion/archive protocol, robust hook error handling, crash/power-loss and host-provider compatibility. Not a production implementation.",
+  "git_version": "git version 2.54.0 (Apple Git-157)",
+  "prepared_data_transaction_blocks_same_channel_seal": true,
+  "different_channel_policy_updates_while_prepared": true,
+  "data_push_commits_then_seal_succeeds": true,
+  "post_seal_data_push_rejected_and_ref_unchanged": true,
+  "seal_between_policy_read_and_prepare_rejects_data_CAS_and_preserves_ref": true,
+  "hook_object_observations": [
+    {
+      "ref": "refs/heads/data/a/writer",
+      "incoming_commit_visible": true,
+      "quarantine_env_present": false
+    },
+    {
+      "ref": "refs/heads/data/a/writer",
+      "incoming_commit_visible": true,
+      "quarantine_env_present": false
+    },
+    {
+      "ref": "refs/heads/data/b/writer",
+      "incoming_commit_visible": true,
+      "quarantine_env_present": false
+    }
+  ]
+}

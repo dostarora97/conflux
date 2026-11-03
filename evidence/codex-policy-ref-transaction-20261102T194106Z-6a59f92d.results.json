@@ -1,0 +1,9 @@
+{
+  "scope": "Local files ref backend transaction primitive only. No proc-receive integration, object quarantine handling, authentication, crash/power-loss test, throughput or external effects.",
+  "git_version": "git version 2.54.0 (Apple Git-157)",
+  "unchanged_policy_verify_blocks_competing_seal_while_prepared": true,
+  "different_channel_policy_can_update_concurrently": true,
+  "data_commits_without_mutating_policy": true,
+  "after_seal_stale_policy_verify_rejects_whole_data_transaction": true,
+  "rejected_data_ref_unchanged": true
+}

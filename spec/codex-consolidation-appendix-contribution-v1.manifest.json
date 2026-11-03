@@ -1,0 +1,67 @@
+{
+  "bundle_path": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/codex-consolidation-appendix-contribution-v1.md",
+  "bundle_sha256": "05035c1f8900091f7602aa0b22e8e4fa1e5cd58eabd58715e753848d0c3d0483",
+  "components": [
+    {
+      "id": "A",
+      "title": "Core algorithm and T25",
+      "source_path": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/codex-algorithm-review-v2.md",
+      "bytes": 21623,
+      "sha256": "f21db5883d1fc491c90faf968e012fb822e60d109aa414ea510871062bb1fd41",
+      "scope": "Current algorithm design clauses; administrative publication status/questions are historical.",
+      "start_marker": "<!-- BEGIN SOURCE SNAPSHOT A codex-algorithm-review-v2.md SHA256=f21db5883d1fc491c90faf968e012fb822e60d109aa414ea510871062bb1fd41 BYTES=21623 -->\n",
+      "end_marker": "\n<!-- END SOURCE SNAPSHOT A codex-algorithm-review-v2.md -->\n"
+    },
+    {
+      "id": "B",
+      "title": "Twenty-four base behavioral traces",
+      "source_path": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/semantic-trace-suite-v2-peer-reviewed-draft.md",
+      "bytes": 18720,
+      "sha256": "297eb9bc79a7cd322a05acfd13b3e98557fefccbdeac33e5668fb5268821b3c6",
+      "scope": "Comparison contracts; optional capability traces apply only when claimed.",
+      "start_marker": "<!-- BEGIN SOURCE SNAPSHOT B semantic-trace-suite-v2-peer-reviewed-draft.md SHA256=297eb9bc79a7cd322a05acfd13b3e98557fefccbdeac33e5668fb5268821b3c6 BYTES=18720 -->\n",
+      "end_marker": "\n<!-- END SOURCE SNAPSHOT B semantic-trace-suite-v2-peer-reviewed-draft.md -->\n"
+    },
+    {
+      "id": "C",
+      "title": "Encoding recommendation D.3",
+      "source_path": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/encoding-recommendation-D3-v1-codex-draft.md",
+      "bytes": 6945,
+      "sha256": "30d80a57e76888a6c3dee833099669b99c41d7f1ff110074d594e4d1c4467b68",
+      "scope": "Current encoding recommendation refining the older D.3 discussion; final grammar remains open.",
+      "start_marker": "<!-- BEGIN SOURCE SNAPSHOT C encoding-recommendation-D3-v1-codex-draft.md SHA256=30d80a57e76888a6c3dee833099669b99c41d7f1ff110074d594e4d1c4467b68 BYTES=6945 -->\n",
+      "end_marker": "\n<!-- END SOURCE SNAPSHOT C encoding-recommendation-D3-v1-codex-draft.md -->\n"
+    },
+    {
+      "id": "D",
+      "title": "Partial-fetch retention clarification T26",
+      "source_path": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/reader-retention-clarification-T26-v1.md",
+      "bytes": 3834,
+      "sha256": "e821eb627ce160a44d66ed7b28f197f98524f0ca841bcbe382c6723bd1d16d1f",
+      "scope": "Current clarification of required closure and scoped retention predicates in A.",
+      "start_marker": "<!-- BEGIN SOURCE SNAPSHOT D reader-retention-clarification-T26-v1.md SHA256=e821eb627ce160a44d66ed7b28f197f98524f0ca841bcbe382c6723bd1d16d1f BYTES=3834 -->\n",
+      "end_marker": "\n<!-- END SOURCE SNAPSHOT D reader-retention-clarification-T26-v1.md -->\n"
+    },
+    {
+      "id": "E",
+      "title": "Optional attention and harness guidance",
+      "source_path": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/codex-optional-attention-harness-note-v2.md",
+      "bytes": 4789,
+      "sha256": "e1c7c07703cd3e88d95baad708b8c055ffeb55efb56a9bbfd9789198f4e23357",
+      "scope": "Optional layer; does not add mandatory core task, acknowledgment, or execution machinery.",
+      "start_marker": "<!-- BEGIN SOURCE SNAPSHOT E codex-optional-attention-harness-note-v2.md SHA256=e1c7c07703cd3e88d95baad708b8c055ffeb55efb56a9bbfd9789198f4e23357 BYTES=4789 -->\n",
+      "end_marker": "\n<!-- END SOURCE SNAPSHOT E codex-optional-attention-harness-note-v2.md -->\n"
+    },
+    {
+      "id": "F",
+      "title": "Architecture, rationale, alternatives and evidence",
+      "source_path": "/Users/I533118/.agents/chats/sessions/20261102T185809Z-dc0b44f5-3740-496f-836c-a5216e853629/attachments/git-coordination-decision-record-v3.md",
+      "bytes": 20928,
+      "sha256": "5a6f88f6d4256a09fec9c3e69fb7c3f93c97ca6e4a730ce1bdb1d73dcc21596a",
+      "scope": "Architecture basis and preserved alternatives; older encoding/state terminology is refined by A/C/D. Historical sketches are not automatically the final wire profile.",
+      "start_marker": "<!-- BEGIN SOURCE SNAPSHOT F git-coordination-decision-record-v3.md SHA256=5a6f88f6d4256a09fec9c3e69fb7c3f93c97ca6e4a730ce1bdb1d73dcc21596a BYTES=20928 -->\n",
+      "end_marker": "\n<!-- END SOURCE SNAPSHOT F git-coordination-decision-record-v3.md -->\n"
+    }
+  ],
+  "verification": "Each embedded payload matches its approved source byte length and SHA-256; overview and wrapper prose are new contribution text pending review."
+}

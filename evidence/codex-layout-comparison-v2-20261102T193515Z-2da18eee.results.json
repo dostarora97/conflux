@@ -1,0 +1,106 @@
+{
+  "scope": "Small deterministic local bare/file Git workload. Matched JSON/tree packet representation, one record/commit; no manifests, policy, local journal, authentication, network latency, concurrency, retention or production benchmark. Object bytes are uncompressed payload sizes; pack bytes count .pack only, not .idx/refs/disk allocation. Absolute overhead depends on chosen representation.",
+  "workload": {
+    "writers": 6,
+    "rooms": 4,
+    "logical_records_per_writer": 20,
+    "logical_records_total": 120,
+    "random_payload_bytes_per_record": 4096,
+    "multicast_rule": "Every fifth record also targets the next room; all other records target one room. Each writer publishes to every room. Reader subscribes only room0.",
+    "multicast_records": 24,
+    "seed": "Random(10000*writer+sequence), Python randbytes"
+  },
+  "git_version": "git version 2.54.0 (Apple Git-157)",
+  "results": {
+    "global": {
+      "published_stream_refs": 6,
+      "publication_commits_excluding_genesis": 120,
+      "genesis_commits": 6,
+      "reader_selected_refs": 6,
+      "reader_received_publication_commits": 120,
+      "reader_useful_logical_messages": 36,
+      "reader_unrelated_publication_commits": 84,
+      "source": {
+        "object_types": {
+          "commit": {
+            "count": 126,
+            "bytes": 29976
+          },
+          "blob": {
+            "count": 246,
+            "bytes": 506892
+          },
+          "tree": {
+            "count": 126,
+            "bytes": 9234
+          }
+        },
+        "total_uncompressed_object_bytes": 546102,
+        "pack_bytes": 0
+      },
+      "cold_reader": {
+        "object_types": {
+          "commit": {
+            "count": 126,
+            "bytes": 29976
+          },
+          "blob": {
+            "count": 246,
+            "bytes": 506892
+          },
+          "tree": {
+            "count": 126,
+            "bytes": 9234
+          }
+        },
+        "total_uncompressed_object_bytes": 546102,
+        "pack_bytes": 528056
+      }
+    },
+    "channel": {
+      "published_stream_refs": 24,
+      "publication_commits_excluding_genesis": 144,
+      "genesis_commits": 24,
+      "reader_selected_refs": 6,
+      "reader_received_publication_commits": 36,
+      "reader_useful_logical_messages": 36,
+      "reader_unrelated_publication_commits": 0,
+      "source": {
+        "object_types": {
+          "tree": {
+            "count": 168,
+            "bytes": 11736
+          },
+          "commit": {
+            "count": 168,
+            "bytes": 38592
+          },
+          "blob": {
+            "count": 288,
+            "bytes": 510528
+          }
+        },
+        "total_uncompressed_object_bytes": 560856,
+        "pack_bytes": 0
+      },
+      "cold_reader": {
+        "object_types": {
+          "blob": {
+            "count": 78,
+            "bytes": 152208
+          },
+          "commit": {
+            "count": 42,
+            "bytes": 9648
+          },
+          "tree": {
+            "count": 42,
+            "bytes": 2934
+          }
+        },
+        "total_uncompressed_object_bytes": 164790,
+        "pack_bytes": 158865
+      }
+    }
+  }
+}

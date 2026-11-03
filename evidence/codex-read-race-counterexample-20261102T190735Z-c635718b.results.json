@@ -1,0 +1,50 @@
+{
+  "scope": "Deterministic local interleaving of the v0.4 pseudocode conditions; not a complete gitcomms implementation or throughput test.",
+  "successful_inventory_fetch_cycles": 6,
+  "equality_rule_retries": 6,
+  "equality_rule_delivered_messages": 0,
+  "verified_fetched_prefix_delivered_messages": 6,
+  "trace": [
+    {
+      "round": 1,
+      "advertisement_is_fetched_tip": false,
+      "fetched_tip_extends_cursor": true,
+      "safe_prefix_messages": 1
+    },
+    {
+      "round": 2,
+      "advertisement_is_fetched_tip": false,
+      "fetched_tip_extends_cursor": true,
+      "safe_prefix_messages": 1
+    },
+    {
+      "round": 3,
+      "advertisement_is_fetched_tip": false,
+      "fetched_tip_extends_cursor": true,
+      "safe_prefix_messages": 1
+    },
+    {
+      "round": 4,
+      "advertisement_is_fetched_tip": false,
+      "fetched_tip_extends_cursor": true,
+      "safe_prefix_messages": 1
+    },
+    {
+      "round": 5,
+      "advertisement_is_fetched_tip": false,
+      "fetched_tip_extends_cursor": true,
+      "safe_prefix_messages": 1
+    },
+    {
+      "round": 6,
+      "advertisement_is_fetched_tip": false,
+      "fetched_tip_extends_cursor": true,
+      "safe_prefix_messages": 1
+    }
+  ],
+  "rewrite_countertrace": {
+    "new_advertisement_matches_fetch": true,
+    "old_cursor_is_ancestor": true,
+    "previously_observed_tip_is_ancestor": false
+  }
+}

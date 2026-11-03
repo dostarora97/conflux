@@ -1,0 +1,31 @@
+{
+  "kind": "captured-run-summary",
+  "helper_path": "/Users/I533118/.agents/chats/skills/agent-chat.ts",
+  "helper_sha256": "ee39c32cb11a4c3daccb38946935e698d4c8c247808417359fbd6ceb1f442302",
+  "script": "attachments/codex-directory-helper-countertraces-v1.py",
+  "scope": "unchanged helper tested once using deterministic scratch files; no estimate of production occurrence; existing session files not modified by experiment",
+  "all_script_assertions_passed": true,
+  "observations": {
+    "initial_message": {
+      "exit": 0,
+      "saved_watermark": 1793655000000
+    },
+    "later_distinct_message_same_millisecond": {
+      "exists": true,
+      "exit": 2,
+      "returned": false,
+      "saved_watermark": 1793655000000
+    },
+    "later_distinct_message_older_mtime": {
+      "exists": true,
+      "exit": 2,
+      "returned": false
+    },
+    "visible_incomplete_json": {
+      "exit": 0,
+      "path_returned": true,
+      "watermark_advanced": true
+    },
+    "processing_boundary": "watermark saved during path emission, before caller reads or acknowledges content"
+  }
+}

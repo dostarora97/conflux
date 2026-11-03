@@ -1,0 +1,206 @@
+{
+  "scope": "Local file transport, 100 publisher labels,100 channel labels, one fixture commit shared by all refs. No message histories/real catalogs, no100independentagents/no concurrentpollers/noWAN/noauthorization/nopublishthroughput. Payload bytes count traced server ref-data lines only, not complete wire traffic. Timing is one uncontrolled local-cache sample, not cold-latency benchmark. Protocolv2 may ignore ref-prefix on other servers; do not generalize provider support.",
+  "git_version": "git version 2.54.0 (Apple Git-157)",
+  "results": [
+    {
+      "layout": "global",
+      "ref_storage": "loose",
+      "query": "v2_scoped",
+      "operation": "ls-remote",
+      "total_remote_refs": 200,
+      "returned_refs_after_client_filter": 100,
+      "server_advertised_ref_lines": 200,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 13000,
+      "client_sent_prefixes": [],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.066145
+    },
+    {
+      "layout": "global",
+      "ref_storage": "loose",
+      "query": "v2_unscoped",
+      "operation": "ls-remote",
+      "total_remote_refs": 200,
+      "returned_refs_after_client_filter": 200,
+      "server_advertised_ref_lines": 200,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 13000,
+      "client_sent_prefixes": [],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.03348
+    },
+    {
+      "layout": "global",
+      "ref_storage": "loose",
+      "query": "v0_scoped_client_pattern",
+      "operation": "ls-remote",
+      "total_remote_refs": 200,
+      "returned_refs_after_client_filter": 100,
+      "server_advertised_ref_lines": 200,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 13000,
+      "client_sent_prefixes": [],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.030045
+    },
+    {
+      "layout": "global",
+      "ref_storage": "loose",
+      "query": "v2_scoped_fetch",
+      "operation": "fetch",
+      "total_remote_refs": 200,
+      "returned_refs_after_client_filter": 100,
+      "server_advertised_ref_lines": 100,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 6500,
+      "client_sent_prefixes": [
+        "refs/heads/writers/"
+      ],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.228693
+    },
+    {
+      "layout": "global",
+      "ref_storage": "packed",
+      "query": "v2_scoped",
+      "operation": "ls-remote",
+      "total_remote_refs": 200,
+      "returned_refs_after_client_filter": 100,
+      "server_advertised_ref_lines": 200,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 13000,
+      "client_sent_prefixes": [],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.026986
+    },
+    {
+      "layout": "global",
+      "ref_storage": "packed",
+      "query": "v2_unscoped",
+      "operation": "ls-remote",
+      "total_remote_refs": 200,
+      "returned_refs_after_client_filter": 200,
+      "server_advertised_ref_lines": 200,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 13000,
+      "client_sent_prefixes": [],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.0273
+    },
+    {
+      "layout": "global",
+      "ref_storage": "packed",
+      "query": "v0_scoped_client_pattern",
+      "operation": "ls-remote",
+      "total_remote_refs": 200,
+      "returned_refs_after_client_filter": 100,
+      "server_advertised_ref_lines": 200,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 13000,
+      "client_sent_prefixes": [],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.027655
+    },
+    {
+      "layout": "global",
+      "ref_storage": "packed",
+      "query": "v2_scoped_fetch",
+      "operation": "fetch",
+      "total_remote_refs": 200,
+      "returned_refs_after_client_filter": 100,
+      "server_advertised_ref_lines": 100,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 6500,
+      "client_sent_prefixes": [
+        "refs/heads/writers/"
+      ],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.189369
+    },
+    {
+      "layout": "channel",
+      "ref_storage": "loose",
+      "query": "v2_scoped",
+      "operation": "ls-remote",
+      "total_remote_refs": 10100,
+      "returned_refs_after_client_filter": 100,
+      "server_advertised_ref_lines": 10100,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 796500,
+      "client_sent_prefixes": [],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.924366
+    },
+    {
+      "layout": "channel",
+      "ref_storage": "loose",
+      "query": "v2_unscoped",
+      "operation": "ls-remote",
+      "total_remote_refs": 10100,
+      "returned_refs_after_client_filter": 10100,
+      "server_advertised_ref_lines": 10100,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 796500,
+      "client_sent_prefixes": [],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.97057
+    },
+    {
+      "layout": "channel",
+      "ref_storage": "loose",
+      "query": "v0_scoped_client_pattern",
+      "operation": "ls-remote",
+      "total_remote_refs": 10100,
+      "returned_refs_after_client_filter": 100,
+      "server_advertised_ref_lines": 10100,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 796500,
+      "client_sent_prefixes": [],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.97419
+    },
+    {
+      "layout": "channel",
+      "ref_storage": "loose",
+      "query": "v2_scoped_fetch",
+      "operation": "fetch",
+      "total_remote_refs": 10100,
+      "returned_refs_after_client_filter": 100,
+      "server_advertised_ref_lines": 100,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 7900,
+      "client_sent_prefixes": [
+        "refs/heads/channels/c050/writers/"
+      ],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.218351
+    },
+    {
+      "layout": "channel",
+      "ref_storage": "packed",
+      "query": "v2_scoped",
+      "operation": "ls-remote",
+      "total_remote_refs": 10100,
+      "returned_refs_after_client_filter": 100,
+      "server_advertised_ref_lines": 10100,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 796500,
+      "client_sent_prefixes": [],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.070232
+    },
+    {
+      "layout": "channel",
+      "ref_storage": "packed",
+      "query": "v2_unscoped",
+      "operation": "ls-remote",
+      "total_remote_refs": 10100,
+      "returned_refs_after_client_filter": 10100,
+      "server_advertised_ref_lines": 10100,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 796500,
+      "client_sent_prefixes": [],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.06928
+    },
+    {
+      "layout": "channel",
+      "ref_storage": "packed",
+      "query": "v0_scoped_client_pattern",
+      "operation": "ls-remote",
+      "total_remote_refs": 10100,
+      "returned_refs_after_client_filter": 100,
+      "server_advertised_ref_lines": 10100,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 796500,
+      "client_sent_prefixes": [],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.08827
+    },
+    {
+      "layout": "channel",
+      "ref_storage": "packed",
+      "query": "v2_scoped_fetch",
+      "operation": "fetch",
+      "total_remote_refs": 10100,
+      "returned_refs_after_client_filter": 100,
+      "server_advertised_ref_lines": 100,
+      "server_ref_line_payload_bytes_excluding_pkt_headers_and_capabilities": 7900,
+      "client_sent_prefixes": [
+        "refs/heads/channels/c050/writers/"
+      ],
+      "local_elapsed_seconds_single_warm_or_cold_unspecified_sample": 0.227084
+    }
+  ]
+}
