@@ -1,0 +1,47 @@
+{
+  "git_version": "git version 2.54.0 (Apple Git-157)",
+  "independent_streams": {
+    "writers": 100,
+    "successful_pushes": 100
+  },
+  "shared_branch": {
+    "same_base_candidates": 16,
+    "accepted_without_retry": 1,
+    "rejected": 15
+  },
+  "group_fetch": {
+    "alpha_commits_present": 60,
+    "unrelated_beta_commits_present": 0
+  },
+  "dependency_closure": {
+    "parent_imports_history": true,
+    "json_reference_imports_history": false
+  },
+  "ancestry_cursor": {
+    "unread_commits_recovered": 2,
+    "clock_skew_affects_result": false
+  },
+  "ref_prefix_collision": {
+    "parent_leaf_and_child_ref_can_coexist": false
+  },
+  "atomic_push": {
+    "otherwise_valid_ref_published_when_peer_ref_rejected": false
+  },
+  "receive_enforcement": {
+    "forced_history_replacement_rejected": true
+  },
+  "commit_metadata": {
+    "custom_header_survives_git_transfer": true,
+    "standard_trailer_parser_reads_channel": true,
+    "porcelain_rewrite_preservation_tested": false
+  },
+  "retention": {
+    "tombstone_retains_ancestor_payload": true,
+    "ref_deletion_immediately_erases_payload": false,
+    "payload_present_after_all_roots_removed_and_gc": false
+  },
+  "epoch_rotation": {
+    "new_epoch_fetch_requires_old_epoch": false
+  },
+  "scope": "Local semantic checks only; not a throughput benchmark or multi-host deployment test."
+}
